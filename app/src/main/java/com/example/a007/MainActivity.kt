@@ -16,5 +16,8 @@ class MainActivity : AppCompatActivity() {
         binding.btn.setOnClickListener {
             Toast.makeText(this, "ERROR", Toast.LENGTH_SHORT).show()
         }
+        binding.edit.setOnClickListener {
+            Toast.makeText(this, "EDIT", Toast.LENGTH_SHORT).show()
+        }
     }
 }
