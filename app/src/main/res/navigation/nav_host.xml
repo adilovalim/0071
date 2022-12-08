@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/salesFragment3">
+
+    <fragment
+        android:id="@+id/salesFragment3"
+        android:name="com.example.a007.SalesFragment"
+        android:label="fragment_sales"
+        tools:layout="@layout/fragment_sales" />
+    <fragment
+        android:id="@+id/listFragment2"
+        android:name="com.example.a007.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/calendarFragment2"
+        android:name="com.example.a007.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/debtorFragment2"
+        android:name="com.example.a007.DebtorFragment"
+        android:label="fragment_debtor"
+        tools:layout="@layout/fragment_debtor" />
+    <fragment
+        android:id="@+id/userFragment2"
+        android:name="com.example.a007.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+</navigation>
