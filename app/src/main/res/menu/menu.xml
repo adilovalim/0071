@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/salesFragment"
+        android:id="@+id/salesFragment3"
         android:icon="@drawable/ic_bir_rv"
         android:title="SALES"/>
     <item
-        android:id="@+id/listFragment"
+        android:id="@+id/listFragment2"
         android:icon="@drawable/ic_lampa"
         android:title="LIST"/>
     <item
-        android:id="@+id/calendarFragment"
+        android:id="@+id/calendarFragment2"
         android:icon="@drawable/ic_jadval"
         android:title="COLENDAR"/>
     <item
-        android:id="@+id/debtorFragment"
+        android:id="@+id/debtorFragment2"
         android:icon="@drawable/ic_deb"
         android:title="DEBITOR"/>
     <item
-        android:id="@+id/userFragment"
+        android:id="@+id/userFragment2"
         android:icon="@drawable/ic_person"
         android:title="USER"/>
 

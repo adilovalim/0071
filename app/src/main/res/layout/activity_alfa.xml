@@ -20,14 +20,25 @@
         app:layout_constraintRight_toRightOf="parent"
         android:id="@+id/bottom_naw"/>
 
-    <fragment
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/bottom_naw"-->
+<!--        android:id="@+id/fragmentContainerView"-->
+<!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:defaultNavHost="true"-->
+<!--        app:navGraph="@navigation/nav_host"/>-->
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_naw"
-        android:id="@+id/fragmentContainerView"
+        app:layout_constraintBottom_toTopOf="@id/bottom_naw"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:defaultNavHost="true"
-        app:navGraph="@navigation/nav_host"/>
+        app:navGraph="@navigation/nav_host"
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

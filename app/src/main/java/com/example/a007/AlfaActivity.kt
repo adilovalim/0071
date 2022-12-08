@@ -26,7 +26,7 @@ class AlfaActivity : AppCompatActivity() {
         // full ekran qlish
         //////////////////////////////
 
-        val navController = Navigation.findNavController(this,R.id.fragmentContainerView)
+        val navController = Navigation.findNavController(this,R.id.fragmentContainerView4)
         setupWithNavController(binding.bottomNaw, navController)
     }
 }
