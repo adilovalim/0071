@@ -30,7 +30,7 @@
 <!--        app:defaultNavHost="true"-->
 <!--        app:navGraph="@navigation/nav_host"/>-->
 
-    <androidx.fragment.app.FragmentContainerView
+    <fragment
         android:id="@+id/fragmentContainerView4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/bottom_naw"
