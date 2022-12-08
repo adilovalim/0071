@@ -10,15 +10,14 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:padding="10dp">
+        android:layout_height="wrap_content">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <androidx.cardview.widget.CardView
+                app:cardUseCompatPadding="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="25dp"
@@ -72,8 +71,6 @@
 
                     </androidx.cardview.widget.CardView>
                 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
             </androidx.cardview.widget.CardView>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -81,19 +78,18 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="0.9">
+        android:layout_height="wrap_content">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="10dp">
+            android:layout_height="match_parent">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="12dp"
                 app:layout_constraintBottom_toTopOf="@id/card_3"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -104,6 +100,8 @@
                     android:layout_height="match_parent">
 
                     <androidx.cardview.widget.CardView
+                        android:layout_margin="8dp"
+                        app:cardElevation="0dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -124,8 +122,9 @@
                 android:id="@+id/card_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true"
                 app:layout_constraintBottom_toTopOf="@id/card_4"
+                app:cardCornerRadius="12dp"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/card_2">
@@ -135,8 +134,10 @@
                     android:layout_height="match_parent">
 
                     <androidx.cardview.widget.CardView
+                        android:layout_margin="8dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
+                        app:cardElevation="0dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintLeft_toLeftOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
@@ -153,9 +154,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_4"
+                app:cardCornerRadius="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true"
                 app:layout_constraintBottom_toTopOf="@id/card_5"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -166,6 +168,8 @@
                     android:layout_height="match_parent">
 
                     <androidx.cardview.widget.CardView
+                        android:layout_margin="8dp"
+                        app:cardElevation="0dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -184,9 +188,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_5"
+                app:cardCornerRadius="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true"
                 app:layout_constraintBottom_toTopOf="@id/card_6"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -197,6 +202,8 @@
                     android:layout_height="match_parent">
 
                     <androidx.cardview.widget.CardView
+                        android:layout_margin="8dp"
+                        app:cardElevation="0dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -215,9 +222,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_6"
+                app:cardCornerRadius="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -229,6 +237,8 @@
                     android:id="@+id/next_fragment">
 
                     <androidx.cardview.widget.CardView
+                        android:layout_margin="8dp"
+                        app:cardElevation="0dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -247,10 +257,10 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1" />-->
 
 
 
