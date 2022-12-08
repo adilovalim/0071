@@ -1,5 +1,6 @@
 package com.example.a007
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,10 +15,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btn.setOnClickListener {
-            Toast.makeText(this, "ERROR", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
         binding.edit.setOnClickListener {
             Toast.makeText(this, "EDIT", Toast.LENGTH_SHORT).show()
         }
+
     }
 }
