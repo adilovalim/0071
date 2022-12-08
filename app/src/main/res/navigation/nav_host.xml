@@ -30,4 +30,9 @@
         android:name="com.example.a007.UserFragment"
         android:label="fragment_user"
         tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/savatchaFragment"
+        android:name="com.example.a007.SavatchaFragment"
+        android:label="fragment_savatcha"
+        tools:layout="@layout/fragment_savatcha" />
 </navigation>
