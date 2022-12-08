@@ -35,4 +35,9 @@
         android:name="com.example.a007.SavatchaFragment"
         android:label="fragment_savatcha"
         tools:layout="@layout/fragment_savatcha" />
+    <fragment
+        android:id="@+id/personalFragment"
+        android:name="com.example.a007.PersonalFragment"
+        android:label="fragment_personal"
+        tools:layout="@layout/fragment_personal" />
 </navigation>
