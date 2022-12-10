@@ -7,6 +7,7 @@
     tools:context=".AlfaActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        app:itemIconTint="@drawable/bottom_navigation_selector"
         app:itemTextColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
