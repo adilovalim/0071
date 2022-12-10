@@ -30,7 +30,7 @@ class SpleshActivity : AppCompatActivity() {
     }
     var runnable = object : Runnable {
         override fun run() {
-            binding.progressBar.progress += 15
+            binding.progressBar.progress += 50
             handler.postDelayed(this, 1000)
             if (binding.progressBar.progress == 100){
                 val intent = Intent(this@SpleshActivity, MainActivity::class.java)
